@@ -20,3 +20,9 @@ resource "google_compute_instance" "vm_instance" {
   }
 }
 
+module "cloud-storage" {
+  source  = "terraform-google-modules/cloud-storage/google"
+  version = "3.4.1"
+  # insert required variables here
+}
+
