@@ -24,7 +24,7 @@ module "cloud-storage" {
   source  = "terraform-google-modules/cloud-storage/google"
   version = "3.4.1"
   names   = ["first"]
-  prefix  = "kevins-bucket"
+  prefix  = "kevins-bucket1"
   project_id = "hc-51f8be8b9e3e42d78269e1fb96f"
   # insert required variables here
 }
